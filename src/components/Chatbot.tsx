@@ -54,6 +54,7 @@ const Chatbot = () => {
           onClick={() => setIsOpen(true)}
           size="lg"
           className="fixed bottom-6 right-6 rounded-full h-16 w-16 shadow-elevated hover:scale-110 transition-transform bg-gradient-to-br from-primary to-accent"
+          data-chatbot-toggle
         >
           <MessageCircle className="h-7 w-7" />
         </Button>

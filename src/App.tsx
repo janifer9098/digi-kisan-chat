@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Chatbot from "./components/Chatbot";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
+import SmartAdvisory from "./pages/SmartAdvisory";
 import Market from "./pages/Market";
 import Marketplace from "./pages/Marketplace";
 import About from "./pages/About";
@@ -27,6 +28,7 @@ const App = () => (
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/advisory" element={<SmartAdvisory />} />
               <Route path="/market" element={<Market />} />
               <Route path="/marketplace" element={<Marketplace />} />
               <Route path="/about" element={<About />} />
