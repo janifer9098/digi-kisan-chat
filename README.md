@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+Krishi Sahayak – Smart Crop Advisory System
+📖 Description
 
-## Project info
+Krishi Sahayak is an AI-powered web platform that helps farmers make smarter agricultural decisions. It provides real-time crop advice, fertilizer recommendations, pest alerts, weather updates, and market prices — all in one place.
+The goal is to empower small and marginal farmers with scientific insights in their preferred language.
 
-**URL**: https://lovable.dev/projects/06af4380-d48b-40d8-9039-e195931e1b6d
+💡 Features
 
-## How can I edit this code?
+🌾 Personalized crop and fertilizer advisory
 
-There are several ways of editing your application.
+☁️ Weather-based alerts and predictions
 
-**Use Lovable**
+🐛 Pest and disease detection via image upload
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/06af4380-d48b-40d8-9039-e195931e1b6d) and start prompting.
+💰 Live mandi (market) price tracking
 
-Changes made via Lovable will be committed automatically to this repo.
+🗣️ Multilingual chatbot with voice support
 
-**Use your preferred IDE**
+📈 Yield prediction and analysis
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🤝 Crop selling and buying marketplace
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🛠️ Tech Stack
 
-Follow these steps:
+Frontend: React + Vite + Tailwind CSS
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Backend: Node.js / Express (planned)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Database: Firebase / MongoDB (optional)
 
-# Step 3: Install the necessary dependencies.
-npm i
+Additional Tools: shadcn/ui, Recharts, React Hook Form, Zod
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+⚙️ Installation and Setup
+1️⃣ Clone the Repository
+git clone https://github.com/<your-username>/krishi-sahayak.git
+cd krishi-sahayak
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Start the Development Server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Your project will be available at http://localhost:5173
 
-**Use GitHub Codespaces**
+🤝 Contributing
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Contributions are welcome!
+You can improve the UI, fix bugs, or add new features like voice recognition and regional language support.
 
-## What technologies are used for this project?
+📜 License
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/06af4380-d48b-40d8-9039-e195931e1b6d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is open-source under the MIT License.
